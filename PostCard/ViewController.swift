@@ -28,6 +28,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        //TEST COMMENT FOR GIT COMMIT
         nameLabel.text = enterNameTextField.text
         nameLabel.hidden = false
         enterNameTextField.text = nil
